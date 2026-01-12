@@ -163,5 +163,4 @@ checkpoints/
 eval_result/
 playground/
 Instruct_HiMol.egg-info/
-scripts/
 data/
