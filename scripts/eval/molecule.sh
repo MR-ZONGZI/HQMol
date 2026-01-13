@@ -42,6 +42,9 @@ python -m llava.eval.molecule_metrics.generate_sample \
 #     --eval_result_file $OUT_FILE \
 #     --score_result_file $SCORE_FILE \
 
+# python -m llava.eval.molecule_metrics.fingerprint_metrics \
+#     --input_file=$OUT_FILE \
+
 # Evaluation for property_pred
 # python -m llava.eval.molecule_metrics.property_metrics \
 #     --eval_result_file $OUT_FILE \
