@@ -21,7 +21,7 @@ fi
 TASK="molcap"
 HIMOL_FUSE="fuse"
 PROJECTOR_TYPE="query" # options: [linear, query]
-DATA_PATH="path_to_your_pkl_data"
+DATA_PATH="../data/ChEBI-20_graph/train_himol.pkl"
 CHECKPOINT_FOLDER_PREFIX="../checkpoints/Graph-LLaVA"
 PRETRAIN_PATH="$CHECKPOINT_FOLDER_PREFIX/pretrain/llava-$GRAPH_TOWER-$MODEL_VERSION-pretrain-$HIMOL_FUSE-$PROJECTOR_TYPE"
 OUTPUT_DIR="$CHECKPOINT_FOLDER_PREFIX/finetune_molcap/$TASK-llava-$GRAPH_TOWER-$MODEL_VERSION-finetune_lora-$HIMOL_FUSE-$PROJECTOR_TYPE"

@@ -21,7 +21,7 @@ fi
 TASK="reagent_pred"
 HIMOL_FUSE="fuse"
 PROJECTOR_TYPE="query" # options: [linear, query]
-DATA_PATH="path_to_your_pkl_data"
+DATA_PATH="../data/Molecule-oriented_Instructions/reagent_prediction_train.json"
 CHECKPOINT_FOLDER_PREFIX="../checkpoints/Graph-LLaVA"
 PRETRAIN_PATH="$CHECKPOINT_FOLDER_PREFIX/pretrain/llava-$GRAPH_TOWER-$MODEL_VERSION-pretrain-$HIMOL_FUSE-$PROJECTOR_TYPE"
 OUTPUT_DIR="$CHECKPOINT_FOLDER_PREFIX/graph-text-molgen/$TASK-llava-$GRAPH_TOWER-$MODEL_VERSION-finetune_lora-$HIMOL_FUSE-$PROJECTOR_TYPE"
