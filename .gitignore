@@ -162,5 +162,3 @@ cython_debug/
 checkpoints/
 eval_result/
 playground/
-Instruct_HiMol.egg-info/
-data/
