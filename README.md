@@ -25,9 +25,9 @@ pip install -r requirements.txt
 * TODO
 
 ## Dataset
-* Pretraining Dataset: Please download the original datasets from [PubChem](https://pubchem.ncbi.nlm.nih.gov/) by following the preprocessing pipeline provided in [MoleculeSTM](https://github.com/chao1224/MoleculeSTM/tree/main/preprocessing/PubChemSTM), then convert the 1D string-based molecule into 2D molecular graphs using the script [pretrain_preprocess.py](../data_preprocess/pretrain_preprocess.py).
+* Pretraining Dataset: Please download the original datasets from [PubChem](https://pubchem.ncbi.nlm.nih.gov/) by following the pipeline provided in [MoleculeSTM](https://github.com/chao1224/MoleculeSTM/tree/main/preprocessing/PubChemSTM), then follow the steps in data_preprocess/ directory.
 
-* Finetune Datasets: The downstream datasets used for finetuning are provided in the data/ directory.
+* Finetune Datasets: Please refer to [Mol-Instructions](https://github.com/zjunlp/Mol-Instructions).
 
 ## Train
 ### Stage 1: Alignment Pretraining
