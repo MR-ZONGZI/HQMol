@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ## Dataset
 * Pretraining Dataset: Please download the original datasets from [PubChem](https://pubchem.ncbi.nlm.nih.gov/) by following the pipeline provided in [MoleculeSTM](https://github.com/chao1224/MoleculeSTM/tree/main/preprocessing/PubChemSTM), then follow the steps in data_preprocess/ directory.
 
-* Finetune Datasets: Please refer to [Mol-Instructions](https://github.com/zjunlp/Mol-Instructions).
+* Finetune Datasets: Please refer to [Mol-Instructions](https://github.com/zjunlp/Mol-Instructions) (Chemical-Related) and [ChEBI-20](https://huggingface.co/datasets/liupf/ChEBI-20-MM) (Molecule Description Generation).
 
 ## Train
 ### Stage 1: Alignment Pretraining
